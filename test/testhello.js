@@ -21,7 +21,7 @@ describe("Routing", function(){
               if(err){
                 throw err;
               }
-              res.should.have.property("status",200);
+              res.should.have.property("status",404);
               done();
             })
         });
